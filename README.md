@@ -1,4 +1,4 @@
-# README - Sistema de Gerenciamento Hospitalar
+# Sistema de Gerenciamento Hospitalar
 
 Este é um sistema de gerenciamento hospitalar desenvolvido como projeto para a disciplina de Processamento de Banco de Dados (PBD). O sistema foi construído utilizando as seguintes tecnologias:
 
