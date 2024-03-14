@@ -7,6 +7,9 @@ Este é um sistema de gerenciamento hospitalar desenvolvido como projeto para a 
 - JavaScript: uma linguagem de programação de alto nível comumente usada para criar aplicativos web interativos.
 - MySQL: um sistema de gerenciamento de banco de dados relacional usado para armazenar e gerenciar os dados do sistema.
 
+![image](https://github.com/pepemesquita/Hospital-Pelotas/assets/81587883/3cd8c3cf-cce4-46ef-af0e-55df8f53f017)
+
+
 ## Estrutura do Projeto
 
 O projeto segue uma estrutura de diretórios padrão para uma aplicação Node.js/Express:
@@ -39,7 +42,7 @@ hospital-management-system/
 
 - **controllers/**: Contém arquivos que definem os modelos de dados e controladores para interagir com o banco de dados.
 - **public/**: Contém arquivos estáticos, como CSS, JavaScript e imagens.
-- **models/**: Contém arquivos que faz requisições no BD.
+- **models/**: Contém arquivos que fazem requisições no BD.
 - **views/**: Contém os arquivos de visualização da aplicação, escritos no formato EJS (Embedded JavaScript).
 - **app.js**: Arquivo principal que inicializa o servidor Express e configura as rotas e middleware da aplicação.
 - **package.json**: Arquivo de manifesto do projeto Node.js que lista as dependências do projeto e outros metadados.
@@ -59,6 +62,7 @@ Para rodar a aplicação, siga estas etapas:
 ## Funcionalidades
 
 Este sistema de gerenciamento hospitalar permite:
+![image](https://github.com/pepemesquita/Hospital-Pelotas/assets/81587883/b21c53b6-38e8-4a3b-b085-1825c69e67e0)
 
 - Adicionar, editar e excluir médicos, departamentos e tc.
 - Pesquisar por vários critérios.
