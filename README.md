@@ -5,6 +5,7 @@ Este é um sistema de gerenciamento hospitalar desenvolvido como projeto para a 
 - Express.js: um framework web para Node.js que facilita a criação de aplicativos web e APIs.
 - Node.js: um ambiente de execução JavaScript do lado do servidor.
 - JavaScript: uma linguagem de programação de alto nível comumente usada para criar aplicativos web interativos.
+- Apache: um software de servidor web de código aberto amplamente utilizado para hospedar sites e aplicativos na internet. 
 - MySQL: um sistema de gerenciamento de banco de dados relacional usado para armazenar e gerenciar os dados do sistema.
 
 ![image](https://github.com/pepemesquita/Hospital-Pelotas/assets/81587883/3cd8c3cf-cce4-46ef-af0e-55df8f53f017)
