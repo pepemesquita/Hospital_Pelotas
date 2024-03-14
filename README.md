@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento Hospitalar
 
-Este é um sistema de gerenciamento hospitalar desenvolvido como projeto para a disciplina de Processamento de Banco de Dados (PBD). O sistema foi construído utilizando as seguintes tecnologias:
+Este é um sistema de gerenciamento hospitalar desenvolvido como projeto para a disciplina de Projeto de Banco de Dados (PBD). O sistema foi construído utilizando as seguintes tecnologias:
 
 - Express.js: um framework web para Node.js que facilita a criação de aplicativos web e APIs.
 - Node.js: um ambiente de execução JavaScript do lado do servidor.
