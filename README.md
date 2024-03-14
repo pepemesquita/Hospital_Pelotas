@@ -14,24 +14,22 @@ O projeto segue uma estrutura de diretórios padrão para uma aplicação Node.j
 ```
 hospital-management-system/
 │
-├── models/
-│   ├── db_controller.js
+├── controllers/
+│   ├── .js/
 │   └── (outros arquivos de modelo)
 │
 ├── public/
 │   ├── css/
-│   ├── js/
 │   └── (outros arquivos estáticos)
 │
-├── routes/
-│   ├── index.js
-│   ├── receipt.js
+├── models/
+│   ├── db_controller.js
 │   └── (outros arquivos de rota)
 │
 ├── views/
-│   ├── add_receipt.ejs
-│   ├── edit_receipt.ejs
-│   ├── delete_receipt.ejs
+│   ├── home.ejs
+│   ├── login.ejs
+│   ├── signup.ejs
 │   └── (outros arquivos de visualização)
 │
 ├── app.js
@@ -39,9 +37,9 @@ hospital-management-system/
 └── README.md
 ```
 
-- **models/**: Contém arquivos que definem os modelos de dados e controladores para interagir com o banco de dados.
+- **controllers/**: Contém arquivos que definem os modelos de dados e controladores para interagir com o banco de dados.
 - **public/**: Contém arquivos estáticos, como CSS, JavaScript e imagens.
-- **routes/**: Contém arquivos que definem as rotas da aplicação.
+- **models/**: Contém arquivos que faz requisições no BD.
 - **views/**: Contém os arquivos de visualização da aplicação, escritos no formato EJS (Embedded JavaScript).
 - **app.js**: Arquivo principal que inicializa o servidor Express e configura as rotas e middleware da aplicação.
 - **package.json**: Arquivo de manifesto do projeto Node.js que lista as dependências do projeto e outros metadados.
@@ -50,7 +48,7 @@ hospital-management-system/
 
 Para rodar a aplicação, siga estas etapas:
 
-1. Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
+1. Certifique-se de ter o Node.js, yarn e npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
 2. Clone este repositório para sua máquina local.
 3. Abra um terminal na raiz do projeto.
 4. Execute `npm install` para instalar todas as dependências listadas no arquivo `package.json`.
@@ -62,9 +60,9 @@ Para rodar a aplicação, siga estas etapas:
 
 Este sistema de gerenciamento hospitalar permite:
 
-- Adicionar, editar e excluir receitas médicas.
-- Pesquisar receitas por vários critérios, como ID da consulta ou descrição.
-- Visualizar todas as receitas médicas armazenadas no banco de dados.
+- Adicionar, editar e excluir médicos, departamentos e tc.
+- Pesquisar por vários critérios.
+- Visualizar todos od dados possiveis armazenadas no banco de dados.
 
 Para qualquer dúvida ou problema, entre em contato comigo
 
