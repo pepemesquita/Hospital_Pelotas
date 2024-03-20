@@ -7,8 +7,8 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Oluwajuwon Falore",
-  "license": "ISC",
+  "author": "Pedro",
+  "license": "MIT",
   "dependencies": {
     "async": "^3.1.1",
     "bcrypt": "^5.0.1",
